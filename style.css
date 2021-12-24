@@ -1,0 +1,63 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+section{
+    background: linear-gradient(#D5A3FF 0%, #77A5F8 100%);
+    padding: 50px;
+}
+
+.container{
+    background-color: #fff;
+    padding: 2% 5%;
+    border-radius: 15px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+.container h1{
+    text-align: center;
+    font-size: 35px;
+}
+.container hr{
+    width: 150px;
+    padding: 2px;
+    background-color: black;
+    border-radius: 50%;
+    margin: 0px auto;
+}
+.container .all-member{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container .all-member .member{
+    padding: 15px;
+    width: 30%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #DFD8CA;
+    margin: 10px 20px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.4);
+}
+
+.container .all-member .member .img img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.container .all-member .member .description p {
+    text-align: center;
+    font-size: 16px;
+    margin: 7px;
+}
+
+
+
+
